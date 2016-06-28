@@ -10,7 +10,7 @@ h1, h2, h3{
 }
 
 header{
-  font-family: 'Crimson Text';
+  font-family: 'crimson text';
   font-weight: 700;
   /*color: #495FA8;*/
   color: white;
@@ -27,15 +27,19 @@ header .row .pull-right{
 
 .navbar{
   margin-bottom: 0px;
-  background-color: rgba(193, 209, 172, 0.35);
+  /*background-color: rgba(193, 209, 172, 0.35);*/
   /*position: absolute;*/
   z-index: 10;
   width: 100%;
+  background-color: #BABABA;
 }
 
 .navbar-nav>li>a{
   transition: all 0.4s ease;
-  font-weight: bold;
+  font-family: 'lora',cursive;
+  font-size: 15pt;
+  /*color: #03869E;*/
+  color: black;
 }
 
 #slide-1{
@@ -58,7 +62,7 @@ header .row .pull-right{
   background-position: top;
   min-height: 70vh;
   max-height: 100vh;
-  background-size: 100% 175%;
+  background-size: 150% 215%;
 }
 
 .center-items{
@@ -97,4 +101,42 @@ header .row .pull-right{
     background-position: top;
     background-size: 300% 100%;
   }
+}
+
+#teamphotos{
+  background-color: #fffff;
+  height: 320px;
+}
+
+#teampic{
+  margin: 30px;
+  height: 270px;
+  background-color: rgba(193, 209, 172, 0.35);
+  /*border: 7px solixd #828282;*/
+  /*#5E534F;*/
+}
+
+#teampic h1{
+  font-family: 'crimson text', cursive;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#about{
+  background-color: #fffff;
+  height: 320px;
+}
+
+#aboutteam{
+  margin: 30px;
+  height: 270px;
+  /*background-color: rgba(140, 124, 118, 0.65);*/
+  background-color: rgba(255, 255, 255, 0.5);
+  /*border: 7px solid #828282;*/
+}
+
+#aboutteam h1{
+  font-family: 'playball', cursive;
+  text-align: center;
+  margin-top: 10px;
 }
